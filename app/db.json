@@ -1,0 +1,2784 @@
+{
+
+  "search_settings":{
+    "text": "К сожалению, по вашему запросу ничего не найдено. Попробуйте переформулировать запрос или воспользуйтесь навигацией по сайту"
+  },
+  "widget":{
+    "chat_widget": "<script>console.log('виджет из админки  en загружен')</script>"
+  },
+  "info_cookie":{
+    "text": "тесттесттесттесттест",
+    "btn_name": "тест"
+  },
+  "form_subscribe":{
+    "success_text":" заголовок успех",
+    "success_title":" текст усмех",
+    "title": "Получать новости",
+    "btn_name": "Подписаться",
+    "controls":[
+      {
+        "name": "email",
+        "value": "",
+        "error": "",
+        "type": "email",
+        "placeholder": "E-mail",
+        "required": true
+      }
+    ]
+  },
+  "form_feedback":{
+    "success_text":" заголовок успех",
+    "success_title":" текст усмех",
+    "title": "Свяжитесь с нами",
+    "description": "",
+    "btn_name": "Отправить",    
+    "privacy_policy_text": "Я согласен на обработку моих <a href='/'>персональных данных</a> и ознакомлен с <a href='/'>политикой конфиденциальности</a>",
+    "controls":[
+      {
+        "name": "name",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "ФИО",
+        "required": true
+      },
+      {
+        "name": "company",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "Компания",
+        "required": true
+      },
+      {
+        "name": "email",
+        "value": "",
+        "error": "",
+        "type": "email",
+        "placeholder": "E-mail",
+        "required": false
+      },
+      {
+        "name": "phone",
+        "value": "",
+        "error": "",
+        "type": "tel",
+        "placeholder": "Телефон",
+        "required": true
+      },
+      {
+        "name": "comment",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "Комментарий",
+        "required": false
+      }
+    ]
+  },
+  "form_vacancy":{
+    "success_text":" заголовок успех",
+    "success_title":" текст усмех",
+    "title": "Свяжитесь с нами работа",
+    "description": "",
+    "btn_name": "Отправить",
+    "btn_name_file": "Прикрепить резюме",
+    "file_info": "<p>Для того, чтобы прикрепленный файл был успешно отправлен, необходимо преобразовать его в формат PDF или JPG. Размер файла не должен превышать 5 Мегабайт.</p>",
+    "privacy_policy_text": "Я согласен на обработку моих <a href='/'>персональных данных</a> и ознакомлен с <a href='/'>политикой конфиденциальности</a>",
+    "controls":[
+      {
+        "name": "name",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "ФИО",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "value": "",
+        "error": "",
+        "type": "tel",
+        "placeholder": "Телефон",
+        "required": true
+      },
+      {
+        "name": "email",
+        "value": "",
+        "error": "",
+        "type": "email",
+        "placeholder": "E-mail",
+        "required": false
+      },
+      {
+        "name": "file",
+        "value": "",
+        "error": "",
+        "type": "file",
+        "placeholder": "Выбрать файл",
+        "required": false
+      },
+      {
+        "name": "comment",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "Комментарий",
+        "required": false
+      }
+    ]
+  },
+  "contentPage": [
+      {
+          "type": "text",
+          "content": "<p>fgfg текст</p>\r\n\r\n<p><img alt=\"sss\" src=\"https://unsplash.it/793/405?random\"/></p>",
+          "order": 1
+      },
+      {
+          "type": "video",
+          "video_id": "cBgzLJALnHE",
+          "img_src": "https://unsplash.it/793/405?random",
+          "img_alt": "bl",
+          "order": 2
+      },
+      {
+          "type": "slider",
+          "description": "<p>ТЕКСТ СЛАЙДЕРА</p>",
+          "items": [
+              {
+                  "src": "https://unsplash.it/793/405?random",
+                  "alt": "1"
+              },
+              {
+                  "src": "https://unsplash.it/793/405?random",
+                  "alt": "2"
+              },
+              {
+                  "src": "https://unsplash.it/793/405?random",
+                  "alt": "3"
+              }
+          ],
+          "order": 3
+      },
+      {
+        "type": "single_file",
+        "title": "Изучить информацию о компании",
+        "link": "https://kub-24.ru/wp-content/uploads/price_02.03.2020.docx",
+        "order": 4
+      },
+      {
+        "type": "row",
+        "title": "Преимущества",
+        "items":[
+          {
+            "name":"Лидеры",
+            "text":"Лидеры по объёму производства текстильной ленты в РФ"
+          },
+          {
+            "name":"Стандарт",
+            "text":"Возможность изготовления стяжных ремней по европейскому стандарту EN-12195-2"
+          },
+          {
+            "name":"Качество",
+            "text":"Качество за счёт конструирования новых видов текстильной ленты и технологии свивки"
+          }
+        ],
+        "order": 5
+      },
+      {
+        "type": "document",
+        "title": "Для оформления индивидуального заказа необходимо заполнить опросный лист",
+        "link_view_all": "Смотреть все<br> опросные листы",
+        "items":[
+          {
+            "name":"Грейфер",
+            "link":"file.txt"
+          },
+          {
+            "name":"Грузозахватное приспособление",
+            "link":"file.txt"
+          },
+          {
+            "name":"Грузозахватное приспособление (фото, размеры)",
+            "link":"file.txt"
+          }
+        ],
+        "order": 6
+      }
+  ],
+  "suppliers":{
+    "title": "Закупки mock",
+    "script": "<div class='b2b-center-market' data-iframe='steel-prom' data-domain='http://www.b2b-center.ru'></div><script>(function () { var id = 'b2b-center-market-js'; if (document.getElementById(id)) { return; } var script = document.createElement('script'); script.src = 'http:////www.b2b-center.ru/js/public/iframe.js'; script.id = id; script.charset = 'utf-8'; script.type = 'text/javascript'; document.getElementsByTagName('head')[0].appendChild(script);}());</script>"
+  },
+  "meta_page": [
+  {
+    "page": "index",
+    "title": "Главная",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "directions",
+    "title": "Направления",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "catalog",
+    "title": "Каталог",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "history",
+    "title": "история",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "company",
+    "title": "О компании",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "vacancy",
+    "title": "Вакансии",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "production",
+    "title": "Производство",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "quality_mark",
+    "title": "Награды",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "documents",
+    "title": "Общая разрешительная документация",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "contacts",
+    "title": "Контакты",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "user-agreement",
+    "title": "Пользовательское соглашение",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Пользовательское соглашение",
+    "meta_description": "Пользовательское соглашение",
+    "meta_keywords": "Пользовательское соглашение, Главная",
+    "og_title": "Пользовательское соглашение",
+    "og_description": "Пользовательское соглашение",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "privacy_policy",
+    "title": "Политика обработки персональных данных",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Политика обработки персональных данных",
+    "meta_description": "Политика обработки персональных данных",
+    "meta_keywords": "Политика обработки персональных данных",
+    "og_title": "Политика обработки персональных данных",
+    "og_description": "Политика обработки персональных данных",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "delivery",
+    "title": "Логистика",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "suppliers",
+    "title": "Поставщикам",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "portfolio",
+    "title": "Портфолио",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "news",
+    "title": "Новости",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "gallery",
+    "title": "Галерея",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Главная",
+    "meta_description": "Главная",
+    "meta_keywords": "Главная, Главная",
+    "og_title": "Главная",
+    "og_description": "Главная",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  },
+  {
+    "page": "search",
+    "title": "Поиск по сайту",
+    "add_to_breadcrumbs": true,
+    "meta_title": "Поиск по сайту",
+    "meta_description": "Поиск по сайту",
+    "meta_keywords": "Поиск по сайту",
+    "og_title": "Поиск по сайту",
+    "og_description": "Поиск по сайту",
+    "og_image": "http://localhost:8003/media/metamodel/cxxzdf.png"
+  }
+],
+  "errore_404":{
+    "title":"404",
+    "description":"Страница, которую вы ищите, не существует",
+    "link_name": "вернуться на главную",
+    "link": "/"
+  },
+  "history":{
+    "img_src": "https://unsplash.it/1920/450?random",
+    "img_alt": "Pic",
+    "number": 20,
+    "number_caption": "лет опыта",
+    "description": "<p>Синий блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опыта</p><p>Синий блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опыта</p>Синий блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опытаСиний блок с 20+лет опыта",
+    "years": [
+        {
+            "number": "2000",
+            "content": [
+                {
+                    "type": "text",
+                    "content": "<p>Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000Текст 2000</p>",
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "number": "2013",
+            "content": [
+                {
+                    "type": "text",
+                    "content": "<p>Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001Текст 2001</p>",
+                    "order": 1
+                }
+            ]
+        },
+        {
+            "number": 2002,
+            "content": [
+                {
+                    "type": "text",
+                    "content": "<p>текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002текст 2002</p>",
+                    "order": 1
+                }
+            ]
+        }
+    ]
+  },
+  "contacts":{    
+    "titles": {
+      "btn_name_show_marker": "Посмотреть на карте",
+      "title_office": "Тест",
+      "title_production": "Тест",
+      "title_legal_address": "Тест",
+      "title_mailing_address": "Тест",
+      "title_phone": "Тест",
+      "title_email": "Тест",
+      "affiliates_main_title": "Тест",
+      "affiliates_main_description": "<p>ТестТестТест</p>",
+      "affiliates_company_title": "Тест",
+      "affiliates_company_description": "<p>ТестТестТест</p>",
+      "affiliates_delivery_title": "Тест",
+      "affiliates_delivery_description": "<p>ТестТестТест</p>",
+      "delivery_show": true,
+      "affiliates_link_name": "Тест"
+    },
+    "branches": [
+        {
+            "name": "Белорецк",
+            "code": "beloretsk",
+            "title": "Контакты ООО 'Стальпром' в Белорецк",
+            "director": [
+            ],
+            "info_office": [
+                {
+                    "main_office": true,
+                    "address": "героев 22",
+                    "coords": [56.009310, 92.842555],
+                    "title": "Офис в Белорецк"
+                },
+                {
+                    "main_office": true,
+                    "address": "героев 22",
+                    "coords": [
+                      56.009718, 
+                      92.835845
+                    ],
+                    "title": "Офис в Белорецк"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                      56.009451, 92.808060
+                    ]
+                },
+                {
+                    "address": "героев 22",
+                    "coords": [
+                      56.008802, 92.804602
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                },
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                },
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                },
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                },
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Екатеринбург",
+            "code": "ekaterinburg",
+            "title": "Контакты ООО 'Стальпром' в Екатеринбург",
+            "director": [
+
+              {
+                "photo": "https://unsplash.it/216/231?random",
+                "name": "Пахомов Алексей Владимирович",
+                "position": "Руководитель офиса продаж в г. Белорецк",
+                "email": "alex@steel-prom.ru"
+            },
+            {
+                "photo": "https://unsplash.it/216/231?random",
+                "name": "Пахомов Алексей Владимирович",
+                "position": "Руководитель офиса продаж в г. Белорецк",
+                "email": "alex@steel-prom.ru"
+            },
+            {
+                "photo": "https://unsplash.it/216/231?random",
+                "name": "Пахомов Алексей Владимирович",
+                "position": "Руководитель офиса продаж в г. Белорецк",
+                "email": "alex@steel-prom.ru"
+            }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Екатеринбург"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Казань",
+            "code": "kazan",
+            "title": "Контакты ООО 'Стальпром' в Москве",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Казань"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Краснодар",
+            "code": "krasnodar",
+            "title": "Контакты ООО 'Стальпром' в Москве",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Краснодар"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Челябинск",
+            "code": "chelyabinsk",
+            "title": "Контакты ООО 'Стальпром' в Челябинск",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Челябинск"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Набережные Челны",
+            "code": "naberezhnye_chelny",
+            "title": "Контакты ООО 'Стальпром' в Москве",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Набережные Челны"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Сургут",
+            "code": "surgut",
+            "title": "Контакты ООО 'Стальпром' в Сургут",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Сургут"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Уфа",
+            "code": "ufa",
+            "title": "Контакты ООО 'Стальпром' в Уфа",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.569853,
+                        55.569853
+                    ],
+                    "title": "Офис в Уфа"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 22",
+                    "coords": [
+                        54.469853,
+                        54.469853
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 22"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "89112112682",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "Cанкт Петербург",
+            "code": "cankt-peterburg",
+            "title": "Контакты ООО 'Стальпром' в Cанкт Петербурге",
+            "director": [
+                {
+                    "photo": "https://unsplash.it/216/231?random",
+                    "name": "Пахомов Алексей Владимирович",
+                    "position": "Руководитель офиса продаж в г. Белорецк",
+                    "email": "alex@steel-prom.ru"
+                }
+            ],
+            "info_office": [
+                {
+                    "main_office": false,
+                    "address": "героев 22",
+                    "coords": [
+                        55.555555,
+                        55.555555
+                    ],
+                    "title": "Офис в СПб"
+                }
+            ],
+            "info_production": [
+                {
+                    "address": "героев 33",
+                    "coords": [
+                        53.963754,
+                        58.408873
+                    ]
+                }
+            ],
+            "info_legal_address": [
+                {
+                    "address": "героев 33"
+                }
+            ],
+            "info_mailing_address": [
+                {
+                    "address": "героев 33"
+                }
+            ],
+            "info_phone": [
+                {
+                    "phone": "999999999",
+                    "add_number": "доп 1"
+                }
+            ],
+            "info_email": [
+                {
+                    "email": "sgrimj@gmail.com"
+                }
+            ]
+        }
+    ]
+  },
+  "about_main":{
+    "title": "Грузозахватные приспособления и нестандартное оборудование от производителя",
+    "subtitle": "Миссия компании",
+    "description": "Своевременно обеспечиваем безопасными, качественными, комплексными решениями для роста эффективности наших клиентов и партнеров.",
+    "link_name": "Подробнее",
+    "video_id": "3EfuOmImWNg",
+    "video_preview_src":"https://unsplash.it/1920/720?random",
+    "video_preview_alt":"обложка видео",
+    "text_1": "<p>«СтальПром» — одна из лидирующих компаний по производству и реализации съёмного грузоподъёмного оборудования в Росс ии. Работаем с 2002 года.</p><p>Мы располагаем собственными конструкторским департаментом и производственно-складским комплексом площадью 15 гектаров. Сотрудничаем с лучшими поставщиками сырья и используем передовое технологическое оснащение. Всё это позволяет нам получать продукцию, которая отвечает самым высоким стандартам.</p><p>Начиная с изготовления металлических канатов и строп, мы постепенно расширяли ассортимент, чтобы обеспечивать клиентов всем необходимым оборудованием для грузоподъёмных работ.</p>",
+    "text_2": "<p>Сегодня этот список включает в себя:</p><ul><li>металлические и текстильные стропы;</li><li>захваты;</li><li>канаты;</li><li>траверсы;</li><li>комплектующие (скобы, рым-гайки, зажимы и т. д.);</li><li>тару для хранения и транспортировки грузов и не только.</li></ul><p>Более подробнее ознакомиться с продукцией можно в каталоге на нашем сайте.</p><p>Среди партнёров «СтальПром» — компании из строительной, нефтегазовой, горнорудной, металлургической, энергетической отраслей...</p>"
+  
+  },
+  "form_consultation":{
+    "success_text":" заголовок успех",
+    "success_title":" текст усмех",
+    "title": "Консультация специалиста",
+    "description": "",
+    "btn_name": "Отправить",
+    "privacy_policy_text": "Я согласен на обработку моих <a href='/'>персональных данных</a> и ознакомлен с <a href='/'>политикой конфиденциальности</a>",
+    "controls":[
+      {
+        "name": "name",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "ФИО",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "value": "",
+        "error": "",
+        "type": "tel",
+        "placeholder": "Телефон",
+        "required": true
+      }
+    ]
+  },
+  "city_selection":{
+    "title": "Выберите Ваш город",
+    "cities":[
+      {
+        "city": "Белорецк",
+        "code": "beloreck"
+      },
+      {
+        "city": "Екатеринбург",
+        "code": "ekaterinburg"
+      },
+      {
+        "city": "Казань",
+        "code": "kazan"
+      },
+      {
+        "city": "Краснодар",
+        "code": "krasnodar"
+      },
+      {
+        "city": "Уфа",
+        "code": "ufa"
+      },
+      {
+        "city": "Челябинск",
+        "code": "chelyabinsk"
+      },
+      {
+        "city": "Санкт-Петербург",
+        "code": "sankt-peterburg"
+      },
+      {
+        "city": "Набережные Челны",
+        "code": "naberezhnye-chelny"
+      },
+      {
+        "city": "Сургут",
+        "code": "surgut"
+      }
+    ]
+  },
+  "form_buy":{
+    "title": "Отправить запрос",
+    "description": "Добавьте в запрос продукцию, которая вас интересует, менеджер сможет сделать для вас индивидуальное предложение ",
+    "btn_name": "Отправить",
+    "privacy_policy_text": "Я согласен на обработку моих <a href='/'>персональных данных</a> и ознакомлен с <a href='/'>политикой конфиденциальности</a>",
+    "add_product_buy": "Добавить продукцию, которая вас интересует",
+    "controls":[
+      {
+        "name": "name",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "ФИО",
+        "required": true
+      },
+      {
+        "name": "company",
+        "value": "",
+        "error": "",
+        "type": "text",
+        "placeholder": "Название компании",
+        "required": false
+      },
+      {
+        "name": "phone",
+        "value": "",
+        "error": "",
+        "type": "tel",
+        "placeholder": "Телефон",
+        "required": true
+      },
+      {
+        "name": "email",
+        "value": "",
+        "error": "",
+        "type": "email",
+        "placeholder": "E-mail",
+        "required": false
+      }
+    ]
+  },
+  "privacy_policy":{
+    "text": "<p>sdfdsf</p>"
+  },
+  "our_partners":{
+    "title": "Партнеры",
+    "items":[
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      },
+      {
+        "src": "https://unsplash.it/120/40?random",
+        "alt": "ff"
+      }
+    ]
+  },
+  "common":{
+    "header":{
+      "logo_header": "http://localhost:8003/media/header/cxxzdf.png",
+      "request_button_text": "Отправить запрос",
+      "header_menu": [
+          {
+              "name": "Каталог",
+              "slug": "catalog"
+          },
+          {
+              "name": "Направления",
+              "slug": "directions"
+          },
+          {
+              "name": "О компании",
+              "slug": "company"
+          },
+          {
+              "name": "Логистика",
+              "slug": "delivery"
+          },
+          {
+              "name": "Поставщикам",
+              "slug": "suppliers"
+          },
+          {
+              "name": "Контакты",
+              "slug": "contacts"
+          }
+      ]
+    },
+    "footer":{
+      "logo_footer": "http://lorempixel.com/202/105/",
+      "copyright": "© ООО «СтальПром» 2014-2021.",
+      "links": [
+        {
+            "name": "Пользовательское соглашение",
+            "slug": "user-agreement"
+        },
+        {
+            "name": "Политика обработки персональных данных",
+            "slug": "privacy-policy"
+        }
+      ],
+      "footer_menu": [
+          {
+              "name": "Каталог",
+              "slug": "catalog",
+              "submenu": [
+                  {
+                      "name": "Стропы",
+                      "slug": "strope",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Стяжные системы и автотросы",
+                      "slug": "systems",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Канаты",
+                      "slug": "kanats",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Оборудование",
+                      "slug": "devices",
+                      "submenu": []
+                  }
+              ]
+          },
+          {
+              "name": "О компании",
+              "slug": "company",
+              "submenu": [
+                  {
+                      "name": "Новости",
+                      "slug": "news",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Производство",
+                      "slug": "production",
+                      "submenu": []
+                  },
+                  {
+                      "name": "История",
+                      "slug": "history",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Портфолио",
+                      "slug": "portfolio",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Награды",
+                      "slug": "quality_mark",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Галерея",
+                      "slug": "gallery",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Вакансии",
+                      "slug": "vacancy",
+                      "submenu": []
+                  },
+                  {
+                      "name": "Общая разрешительная документация",
+                      "slug": "documents",
+                      "submenu": []
+                  }
+              ]
+          },
+          {
+              "name": "Направления",
+              "slug": "directions",
+              "submenu": []
+          },
+          {
+              "name": "Логистика",
+              "slug": "delivery",
+              "submenu": []
+          },
+          {
+              "name": "Поставщикам",
+              "slug": "suppliers",
+              "submenu": []
+          },
+          {
+              "name": "Контакты",
+              "slug": "contacts",
+              "submenu": []
+          }
+      ],
+      "messenger": [
+          {
+              "type": "viber",
+              "phone": "+7(56)-776-45-45"
+          },
+          {
+              "type": "whatsApp",
+              "phone": "9999"
+          }
+      ],
+      "soc_net": [
+          {
+              "type": "tm",
+              "link": "Test.Test"
+          },
+          {
+              "type": "vk",
+              "link": "Test.Test"
+          },
+          {
+              "type": "instagram",
+              "link": "Test.Test"
+          },
+          {
+              "type": "youtube",
+              "link": "Test.Test"
+          },
+          {
+              "type": "wildberries",
+              "link": "Test.Test"
+          }
+      ]
+    },
+    "header_drop_down_menu": [
+        {
+            "name": "Каталог",
+            "slug": "catalog",
+            "submenu": [
+                {
+                    "name": "Стропы",
+                    "slug": "strope",
+                    "submenu": [
+                        {
+                            "name": "Ленточные текстильные стропы",
+                            "slug": "lents",
+                            "submenu": []
+                        },
+                        {
+                            "name": "Круглопрядные текстильные стропы",
+                            "slug": "round",
+                            "submenu": []
+                        },
+                        {
+                            "name": "Цепные стропы",
+                            "slug": "chain",
+                            "submenu": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Стяжные системы и автотросы",
+                    "slug": "systems",
+                    "submenu": [
+                        {
+                            "name": "Ленточные текстильные стропы2",
+                            "slug": "lents2",
+                            "submenu": []
+                        },
+                        {
+                            "name": "Круглопрядные текстильные стропы2",
+                            "slug": "round2",
+                            "submenu": []
+                        },
+                        {
+                            "name": "Цепные стропы2",
+                            "slug": "chain2",
+                            "submenu": []
+                        },
+                        {
+                            "name": "Полотенца монтажные",
+                            "slug": "montage",
+                            "submenu": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Канаты",
+                    "slug": "kanats",
+                    "submenu": []
+                },
+                {
+                    "name": "Оборудование",
+                    "slug": "devices",
+                    "submenu": []
+                }
+            ]
+        },
+        {
+            "name": "Направления",
+            "slug": "directions",
+            "submenu": []
+        },
+        {
+            "name": "О компании",
+            "slug": "company",
+            "submenu": [
+                {
+                    "name": "Производство",
+                    "slug": "production",
+                    "submenu": []
+                },
+                {
+                    "name": "История",
+                    "slug": "history",
+                    "submenu": []
+                },
+                {
+                    "name": "Портфолио",
+                    "slug": "portfolio",
+                    "submenu": []
+                },
+                {
+                    "name": "Награды",
+                    "slug": "quality_mark",
+                    "submenu": []
+                },
+                {
+                    "name": "Вакансии",
+                    "slug": "vacancy",
+                    "submenu": []
+                },
+                {
+                    "name": "Общая разрешительная документация",
+                    "slug": "documents",
+                    "submenu": []
+                }
+            ]
+        },
+        {
+            "name": "Логистика",
+            "slug": "delivery",
+            "submenu": []
+        },
+        {
+            "name": "Поставщикам",
+            "slug": "suppliers",
+            "submenu": []
+        },
+        {
+            "name": "Контакты",
+            "slug": "contacts",
+            "submenu": []
+        }
+    ],
+    "contact": {
+        "city": "Cанкт Петербург",
+        "address": "Бабушкина",
+        "email": "sgrimj@gmail.com",
+        "phone": "8 800 700 34 56",
+        "add_number": "доп 1"
+    }
+  },
+  "certificates":{
+    "title": "Сертификаты и лицензии",
+    "link_name": "Смотреть все",
+    "items":[
+      {
+        "title": "Аккредитация лаборатории разрушающего контроля",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Декларация ЕАС – Магнитные захваты",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "H00177 – Грейферы канатные",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Свидетельство торгово-промышленной палаты Российской Федерации и Республики Башкортостан",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-01-01",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Аккредитация лаборатории разрушающего контроля",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Декларация ЕАС – Магнитные захваты",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "H00177 – Грейферы канатные",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Свидетельство торгово-промышленной палаты Российской Федерации и Республики Башкортостан",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-01-01",
+        "img_src": "https://unsplash.it/476/683?random",
+        "img_alt": "сгб"
+      }
+    ]
+  },
+  "our_projects":{
+    "title": "Наши проекты",
+    "link_name": "Смотреть все",
+    "items":[
+      {
+        "title": "Траверса для металлопроката",
+        "date": 1636513828,
+        "slug": "slug1",
+        "img_src": "https://unsplash.it/590/456?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Макет морской пушки 21-К",
+        "date": 1636513828,
+        "slug": "slug2",
+        "img_src": "https://unsplash.it/590/456?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Захват для стального листа в рулонах",
+        "date": 1636513828,
+        "slug": "slug3",
+        "img_src": "https://unsplash.it/590/456?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Велопарковка под заказ",
+        "date": 1636513828,
+        "slug": "slug4",
+        "img_src": "https://unsplash.it/590/456?random",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Неприводная рельсовая тележка",
+        "date": 1636513828,
+        "slug": "slug5",
+        "img_src": "https://unsplash.it/590/456?random",
+        "img_alt": "сгб"
+      }
+    ]
+  },
+  "main_slider":{
+    "link_name": "Подробнее",
+    "items":[
+      {
+        "title": "Многопрофильная производственная компания",
+        "description": "Наличие собственного конструкторского департамента и собственного производства",
+        "video_src": "http://new.lemarkllc.ru/local/html/video/video_mp4.mp4",
+        "img_src": "https://unsplash.it/1920/626?random",
+        "img_alt": "сгб",
+        "link": "/suppliers"
+      },
+      {
+        "title": "Многопрофильная производственная компания",
+        "description": "Наличие собственного конструкторского департамента и собственного производства Наличие собственного конструкторского департамента и собственного производства",
+        "video_src": "",
+        "img_src": "https://unsplash.it/1920/627?random",
+        "img_alt": "сгб",
+        "link": "ссылка2"
+      },
+      {
+        "title": "Многопрофильная производственная компания",
+        "description": "маленькое описание",
+        "video_src": "",
+        "img_src": "https://unsplash.it/1920/627?random",
+        "img_alt": "сгб",
+        "link": "ссылка3"
+      }
+    ]
+  },
+  "transport_companies":{
+    "title": "Транспортные компании",
+    "description": "<p>Сотрудничество с любыми транспортными компаниями. 18-летний опыт производства позволил компании СтальПром достичь высочайшего уровня качества продукции и стать лидером по объему выпускаемого грузоподъемного оборудования.</p>",
+    "btn_name": "Расчитать доставку",
+    "items":[
+      {
+        "title": "Деловые линии",
+        "description": "<p>Транспортная компания «Деловые Линии» осуществляет перевозки грузов уже более 13 лет. Компания может доставить груз почти в любой город России, и география грузоперевозок постоянно расширяется.</p><ul>  <li>автомобильные, авиаперевозки;</li>  <li>контейнерные грузоперевозки;</li>  <li>доставка сборных грузов;</li>  <li>перевозка грузов отдельным автотранспортом;</li>  <li>грузоперевозки, доставка в регионы России, а также Беларуси и Казахстана;</li>  <li>экспресс-доставка.</li></ul>",
+        "widget": "<iframe src='https://widgets.dellin.ru/calculator?derival_to_door=off&arrival_to_door=on&disabled_calculation=off&insurance=0&package=1' width='332'  height='390' scrolling='no'        frameborder='0'>    </iframe>"
+      },
+      {
+        "title": "Байкал-сервис",
+        "description": "<p>Компания «Байкал-Сервис» предоставляет широкий комплекс услуг по перевозке и доставке сборных грузов, а также по организации транспортных перевозок грузов, как по самым популярным направлениям по сети филиалов, так и по индивидуальным маршрутам перевозок грузов наших клиентов. Мы работаем на российском рынке с 1994 года и зарекомендовали себя как надежный партнер, предоставляющий услуги грузоперевозки высокого качества.</p>",
+        "widget": "<iframe src='https://api.baikalsr.ru/widget/calculator?' width='310' height='525' scrolling='no' frameborder='0'></iframe>"
+      },
+      {
+        "title": "ТК КИТ",
+        "description": "<p>Помимо присутствия в качестве регионального представительства с собственным складом, в более чем 110 городах, сильной стороной Транспортной Компании 'КИТ' является развитая краевая доставка. Перевезти грузы между крупными областными центрами могут многие, обеспечить помимо этого срочную и точную доставку по низкой стоимости в не крупные областные города может Транспортная Компания 'КИТ'. Более 2 000 населенных пунктов доставки. Более 10 000 отправлений в день, более 200 000 клиентов в России и СНГ </p>",
+        "widget": "widget"
+      }
+    ]
+  },
+  "delivery":{
+    "content": [
+      {
+          "type": "text",
+          "content": "<p>Text block 1</p>",
+          "order": 1
+      },
+      {
+          "type": "video",
+          "video_id": "фвфыввфв",
+          "img_src": "http://localhost:8003/media/logisticsvideoblock/694486.jpg",
+          "img_alt": "bl",
+          "order": 2
+      },
+      {
+          "type": "text",
+          "content": "<p>Text block 2</p>",
+          "order": 3
+      },
+      {
+          "type": "slider",
+          "description": "<p>Text 1</p>",
+          "items": [
+              {
+                  "src": "http://localhost:8003/media/logisticsslidesmodel/694486.jpg",
+                  "alt": "1"
+              },
+              {
+                  "src": "http://localhost:8003/media/logisticsslidesmodel/pdt_23596.2.jpg",
+                  "alt": "2"
+              },
+              {
+                  "src": "http://localhost:8003/media/logisticsslidesmodel/cxxzdf.jpg",
+                  "alt": "3"
+              }
+          ],
+          "order": 4
+      },
+      {
+          "type": "text",
+          "content": "<p>Text block 3</p>",
+          "order": 5
+      }
+    ]
+  },
+  "portfolio_detail":{
+    "title": "Тест10",
+    "date": 1638354473,
+    "page_settings": {
+        "title_fav": "Другие проекты",
+        "link_name": "Смотреть все проекты"
+    },
+    "next": "test9",
+    "prev": "test11",
+    "favorites": {
+        "items": [
+            {
+                "title": "Тест 11",
+                "slug": "test11",
+                "date": 1638354473
+            },
+            {
+                "title": "Тест9",
+                "slug": "test9"
+            },
+            {
+                "title": "Тест 8",
+                "slug": "test8"
+            }
+        ]
+    },
+    "content": [
+        {
+            "type": "text",
+            "content": "<p>Тест10<span style=\"display: none;\">&nbsp;</span></p>",
+            "order": 1
+        }
+    ]
+  },
+  "portfolio":{
+    "total_number_items": 11,
+    "quantity_page": 10,
+    "current_page": 1,
+    "next": "http://localhost:8003/api/model/case/list/?lang=ru&page=2",
+    "previous": null,
+    "results": [
+        {
+            "title": "Тест 11 dfg dssdfg sdfgfdg dfgfdgfd sdfgrdyty",
+            "date": 1638354502,
+            "slug": "test11",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "test11"
+        },
+        {
+            "title": "Тест10 fghgfhgf fghgfhgf",
+            "date": 1638354473,
+            "slug": "test10",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест9 fdgfhgfhgfh ",
+            "date": 1638354449,
+            "slug": "test9",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест 8",
+            "date": 1638354417,
+            "slug": "test8",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест7",
+            "date": 1638354390,
+            "slug": "test7",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест 6",
+            "date": 1638354348,
+            "slug": "test6",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест 5",
+            "date": 1638353432,
+            "slug": "test5",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест 4",
+            "date": 1638353395,
+            "slug": "test4",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест 3",
+            "date": 1638353346,
+            "slug": "test3 dfgh",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "Тест2",
+            "date": 1638352215,
+            "slug": "test2",
+            "img_src": "https://unsplash.it/590/456?random",
+            "img_alt": "Pic"
+        }
+    ]
+  },
+  "news_detail":{
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": null,
+    "title": "Велопарковка под заказ",
+    "date": 1636513828,
+    "page_settings": {
+      "title_fav": "Читайте также",
+      "link_name": "Смотреть все новости"
+    },
+    "prev": "animals",
+    "next": "test3",
+    "favorites":{
+      "items":[
+        {
+          "title": "Неприводная рельсовая тележка",
+          "date": 1636513828,
+          "slug": "fff"
+        },
+        {
+          "title": "24-я Международная промышленная выставка «Металл-Экспо’2018»",
+          "date": 1636513828,
+          "slug": "fff"
+        },
+        {
+          "title": "Траверса Н-образная для металлургической отрасли",
+          "date": 1636513828,
+          "slug": "fff"
+        }
+      ]
+    },
+    "content":[
+      {
+        "type": "text",
+        "content":"<h2>Портфолио</h2><p>18-летний опыт производства позволил компании СтальПром достичь высочайшего уровня качества продукции и стать лидером по объему выпускаемого грузоподъемного оборудования.</p><p>Компания СтальПром имеет собственный производственно-складской комплекс площадью более 15-и гектаров, который состоит из нескольких цехов, складов, офисов, выставочного зала, гаража и прочих сооружений.</p><p>Производственно-складская база оснащена необходимым для производства оборудованием, которое постоянно обновляется: закупаются современные станки и высокотехнологичное оборудование. Всю производимую продукцию Вы можете увидеть в каталоге. </p>"
+      },
+      {
+        "type": "slider",
+        "description": "Текст для примечании к фото. 18-летний опыт производства позволил компании СтальПром достичь высочайшего уровня качества продукции и стать лидером по объему выпускаемого грузоподъемного оборудования.",
+        "items":[
+          {
+            "src":"http://lorempixel.com/793/405/",
+            "alt":"сгб"
+          },
+          {
+            "src":"http://lorempixel.com/793/405/",
+            "alt":"сгб"
+          },
+          {
+            "src":"http://lorempixel.com/793/405/",
+            "alt":"сгб"
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "video_id":"3EfuOmImWNg",
+        "img_src": "http://lorempixel.com/793/405/",
+        "img_alt": "сгб"
+      }
+    ]
+  },
+  "news":{
+    "total_number_items": 20,
+    "quantity_page": 12,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "items":[
+      {
+        "title": "Испытательный стенд",
+        "date": 1636513828,
+        "slug": "news_1",
+        "img_src": "http://lorempixel.com/590/480/",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "24-я Международная промышленная выставка «Металл-Экспо’2018»",
+        "date": 1636513828,
+        "slug": "news_2",
+        "img_src": "http://lorempixel.com/590/480/",
+        "img_alt": "сгб"
+      },
+      {
+        "title": "Траверса Н-образная для металлургической отрасли",
+        "date": 1636513828,
+        "slug": "news_3",
+        "img_src": "http://lorempixel.com/590/480/",
+        "img_alt": "сгб"
+      }
+    ]
+  },
+  "gallery_detail":{
+    "total_number_items": 3,
+    "quantity_page": 12,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "video_id": "rokCEXsQW8E",
+            "img_thumb": "https://unsplash.it/387/250?random",
+            "img_src": "https://unsplash.it/847/548?random",
+            "img_alt": "1"
+        },
+        {
+            "video_id": "",
+            "img_thumb": "https://unsplash.it/387/250?random",
+            "img_src": "https://unsplash.it/847/548?random",
+            "img_alt": "2"
+        },
+        {
+            "video_id": "",
+            "img_thumb": "https://unsplash.it/387/250?random",
+            "img_src": "https://unsplash.it/847/548?random",
+            "img_alt": "3"
+        },
+        {
+            "video_id": "",
+            "img_thumb": "https://unsplash.it/387/250?random",
+            "img_src": "https://unsplash.it/847/548?random",
+            "img_alt": "4"
+        }
+    ]
+  },
+  "gallery":[
+    {
+      "title": "Грейфер",
+      "slug": "grab"
+    },
+    {
+      "title": "Захват",
+      "slug": "capture"
+    },
+    {
+      "title": "Мероприятия, выставки",
+      "slug": "events-exhibitions"
+    }
+  ],
+  "quality_mark":{
+    "total_number_items": 3,
+    "quantity_page": 12,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "items":[
+      {
+        "src": "https://unsplash.it/476/683?random",
+        "thumb": "http://lorempixel.com/183/254/",
+        "alt": "fgfdg"
+      },
+      {
+        "src": "https://unsplash.it/476/683?random",
+        "thumb": "http://lorempixel.com/183/254/",
+        "alt": "fgfdg"
+      },
+      {
+        "src": "https://unsplash.it/476/683?random",
+        "thumb": "http://lorempixel.com/183/254/",
+        "alt": "fgfdg"
+      },
+      {
+        "src": "https://unsplash.it/476/683?random",
+        "thumb": "http://lorempixel.com/183/254/",
+        "alt": "fgfdg"
+      }
+    ]
+  },
+  "document-menu":[
+    {
+        "title": "Все документы",
+        "slug": "all"
+    },
+    {
+        "title": "Стропы",
+        "slug": "slings"
+    },
+    {
+        "title": "Стяжные системы и авто тросы",
+        "slug": "lashing-systems-and-auto-ropes"
+    }
+  ],
+  "documents":{
+    "total_number_items": 2,
+    "quantity_page": 12,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "title": "H01536 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "slug": "H01536"
+        },
+        {
+            "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "slug": "H01534"
+        },
+        {
+            "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "slug": "H01534"
+        },
+        {
+            "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "slug": "H01534"
+        }
+    ]
+  },
+  "documents_detail":{
+    "title": "Декларация ЕАС – Захваты",
+    "img_src": "https://unsplash.it/476/683?random",
+    "img_thumb": "https://unsplash.it/285/399?random",
+    "img_alt": "Pic",
+    "content": [
+        {
+            "type": "text",
+            "content": "<p>ТЕКСТОВЫЙ БЛОКТЕКСТОВЫЙ БЛОК</p>",
+            "order": 1
+        }
+    ]
+  },
+  "vacancy":{
+    "hr_contacts": {
+      "title": "Контакты отдела кадров:",
+      "phone": {
+          "title": "Телефон",
+          "link": "123456789"
+      },
+      "email": {
+          "title": "E-mail:",
+          "link": "ya@test.ru"
+      },
+      "hh": {
+          "title": "Перейти на hh.ru",
+          "link": "https://hh.ru/"
+      },
+      "avito": {
+          "title": "Перейти на avito",
+          "link": "https://www.avito.ru/"
+      }
+  },
+  "title_questionnaire": "Анкета соискателя",
+  "file_questionnaire": "http://localhost:8003/media/vacancypage/sample.pdf",
+  "content": [
+      {
+          "type": "text",
+          "content": "<p>ТЕКСТОВЫЙ БЛОКТЕКСТОВЫЙ БЛОКТЕКСТОВЫЙ БЛОКТЕКСТОВЫЙ БЛОКТЕКСТОВЫЙ БЛОК</p>",
+          "order": 1
+      },
+      {
+          "type": "video",
+          "video_id": "121231ddd",
+          "img_src": "http://localhost:8003/media/vacancyvideoblock/Black.jpg",
+          "img_alt": "bl",
+          "order": 2
+      }
+  ]
+  },
+  "production":{
+    "link_name_direction": "Направления деятельности",
+    "link_name_document": "Разрешительная документация",
+    "direction_text":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+    "document_text":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+    "content":[
+      {
+        "type": "text",
+        "content": "<p>fgfg текст</p>\r\n\r\n<p><img alt=\"sss\" src=\"https://unsplash.it/793/405?random\"/></p>",
+        "order": 1
+    },
+    {
+        "type": "video",
+        "video_id": "cBgzLJALnHE",
+        "img_src": "https://unsplash.it/793/405?random",
+        "img_alt": "bl",
+        "order": 2
+    },
+    {
+        "type": "slider",
+        "description": "<p>ТЕКСТ СЛАЙДЕРА</p>",
+        "items": [
+            {
+                "src": "https://unsplash.it/793/405?random",
+                "alt": "1"
+            },
+            {
+                "src": "https://unsplash.it/793/405?random",
+                "alt": "2"
+            },
+            {
+                "src": "https://unsplash.it/793/405?random",
+                "alt": "3"
+            }
+        ],
+        "order": 3
+    },
+    {
+      "type": "single_file",
+      "title": "Изучить информацию о компании",
+      "link": "https://kub-24.ru/wp-content/uploads/price_02.03.2020.docx",
+      "order": 4
+    },
+    {
+      "type": "row",
+      "title": "Преимущества",
+      "items":[
+        {
+          "name":"Лидеры",
+          "text":"Лидеры по объёму производства текстильной ленты в РФ"
+        },
+        {
+          "name":"Стандарт",
+          "text":"Возможность изготовления стяжных ремней по европейскому стандарту EN-12195-2"
+        },
+        {
+          "name":"Качество",
+          "text":"Качество за счёт конструирования новых видов текстильной ленты и технологии свивки"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "type": "document",
+      "title": "Для оформления индивидуального заказа необходимо заполнить опросный лист",
+      "link_view_all": "Смотреть все<br> опросные листы",
+      "items":[
+        {
+          "name":"Грейфер",
+          "link":"file.txt"
+        },
+        {
+          "name":"Грузозахватное приспособление",
+          "link":"file.txt"
+        },
+        {
+          "name":"Грузозахватное приспособление (фото, размеры)",
+          "link":"file.txt"
+        }
+      ],
+      "order": 6
+    }
+    ]
+  },
+  "company":{
+    "img_src": "https://unsplash.it/1920/450?random",
+    "img_alt": "сгб",
+    "title": "Миссия компании СтальПром",
+    "description": "<p>Своевременно обеспечиваем безопасными, качественными, комплексными решениями для роста эффективности наших клиентов.</p><p>dgfdgf</p>",
+    "text_under_map": "<p>dgfdgf</p>",
+    "awwards":[
+      {
+        "img_src": "https://unsplash.it/58/91?random",
+        "img_alt": "награда 1"
+      },
+      {
+        "img_src": "https://unsplash.it/58/91?random",
+        "img_alt": "награда 2"
+      }
+    ],
+    "content": [
+      {
+          "type": "text",
+          "content": "<p>Text1Text1Text1Text1</p>",
+          "order": 1
+      },
+      {
+          "type": "slider",
+          "description": "<p>Text1</p>",
+          "items": [
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black.jpg",
+                  "alt": "1"
+              },
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black_NvSImYZ.jpg",
+                  "alt": "2"
+              },
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black_FofbTrO.jpg",
+                  "alt": "3"
+              }
+          ],
+          "order": 2
+      },
+      {
+          "type": "text",
+          "content": "<p>Text2Text2Text2Text2Tex</p>",
+          "order": 3
+      },
+      {
+          "type": "slider",
+          "description": "<p>Text2</p>",
+          "items": [
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black_pSKqEnx.jpg",
+                  "alt": "1"
+              },
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black_kyWvVwM.jpg",
+                  "alt": "2"
+              },
+              {
+                  "src": "http://localhost:8003/media/companyslidesmodel/Black_yQkCO0e.jpg",
+                  "alt": "3"
+              }
+          ],
+          "order": 4
+      },
+      {
+          "type": "text",
+          "content": "<p>Text3Text3Text3Text3Te</p>",
+          "order": 5
+      },
+      {
+          "type": "text",
+          "content": "<p>Text4Text4Text4Text4Tex</p>",
+          "order": 6
+      }
+    ]
+    
+  },
+  "directions":{
+    "link_name_catalog": "Перейти в каталог",
+    "file_catalog": {
+        "title": "Скачать каталог",
+        "src": "http://localhost:8003/media/catalogfile/sample.pdf"
+    },
+    "items": [
+        {
+            "name": "Стропы",
+            "slug": "stropy",
+            "id_direction": "stropy"
+        },
+        {
+            "name": "Оборудование",
+            "slug": "devises",
+            "id_direction": "oborudovanie"
+        },
+        {
+            "name": "Канаты",
+            "slug": "kanaty",
+            "id_direction": "kanaty"
+        },
+        {
+            "name": "Стяжные ремни и автотросы",
+            "slug": "stygnye-sistemy-i-autotrosy",
+            "id_direction": "remni"
+        }
+    ]
+  },
+  "directions_detail":{
+    "id_direction": "stropy",
+    "slug": "stropy",
+    "name": "Стропы",
+    "page_info": {
+      "meta_title": "Главная",
+      "meta_description": "Главная",
+      "meta_keywords": "Главная, Главная",
+      "og_title": "Главная",
+      "og_description": "Главная",
+      "og_image": "https://unsplash.it/1920/450?random",
+      "img_src": "https://unsplash.it/1920/450?random",
+      "img_alt": "PicStropy",
+      "link_name_catalog": "Перейти в каталог",
+      "title_menu": "Продукция направления"
+    },
+    "catalog_menu": [
+        {
+            "img_src": null,
+            "img_alt": "",
+            "name": "Ленточные текстильные стропы",
+            "slug": "lents"
+        },
+        {
+            "img_src": null,
+            "img_alt": "",
+            "name": "Круглопрядные  текстильные стропы",
+            "slug": "round"
+        },
+        {
+            "img_src": null,
+            "img_alt": "",
+            "name": "Стропы тест",
+            "slug": "stropy-test"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Нестандартное оборудование",
+            "slug": "nestandartnoe_oborudovanie"
+        },
+        {
+            "title": "Конструкторский отдел",
+            "slug": "konstruktorskij_otdel"
+        },
+        {
+            "title": "Тест",
+            "slug": "testtesttest"
+        }
+    ]
+  },
+  "catalog":{
+    "link_catalog":{
+      "title": "Скачать каталог",
+      "src": "file.txt"
+    },
+    "categories":[
+      {
+        "name": "Стропы",
+        "slug": "fff9",
+        "submenu":[
+          {
+            "name": "Ленточные текстильные стропы",
+            "slug": "vv1"
+          },
+          {
+            "name": "Круглопрядные текстильные стропы",
+            "slug": "vv2"
+          },
+          {
+            "name": "Канатные стропы",
+            "slug": "vv3"
+          },
+          {
+            "name": "Цепные стропы",
+            "slug": "vv4"
+          },
+          {
+            "name": "Полотенца монтажные",
+            "slug": "vv5"
+          },
+          {
+            "name": "Специальные стропы",
+            "slug": "vv6"
+          },
+          {
+            "name": "Комплектующие к стропам различных классов",
+            "slug": "vv7"
+          }
+        ]
+      },
+      {
+        "name": "Канаты",
+        "slug": "fff10",
+        "submenu":[
+          {
+            "name": "ГОСТ",
+            "slug": "vv8"
+          },
+          {
+            "name": "ТУ",
+            "slug": "vv9"
+          }
+        ]
+      },
+      {
+        "name": "Стяжные системы и автотросы",
+        "slug": "fff11",
+        "submenu":[
+          {
+            "name": "Стяжной ремень текстильный",
+            "slug": "vv10"
+          },
+          {
+            "name": "Трос автомобильный буксировочный",
+            "slug": "vv11"
+          },
+          {
+            "name": "Цепная стяжная система",
+            "slug": "vv12"
+          },
+          {
+            "name": "Натяжители боковых шторок",
+            "slug": "vv13"
+          },
+          {
+            "name": "Цепи противоскольжения ",
+            "slug": "vv14"
+          },
+          {
+            "name": "Ремень для лебедки текстильный",
+            "slug": "vv15"
+          }
+        ]
+      },
+      {
+        "name": "Оборудование",
+        "slug": "fff12",
+        "submenu":[
+          {
+            "name": "Траверса",
+            "slug": "vv16"
+          },
+          {
+            "name": "Захват",
+            "slug": "vv17"
+          },
+          {
+            "name": "Металлургическое оборудование",
+            "slug": "vv18"
+          },
+          {
+            "name": "Баковое оборудование",
+            "slug": "vv19"
+          },
+          {
+            "name": "Кессоны и теплообменники",
+            "slug": "vv20"
+          },
+          {
+            "name": "Детали с мехобработкой TOS",
+            "slug": "vv21"
+          },
+          {
+            "name": "Детали с мехобработкой на ЧПУ",
+            "slug": "vv22"
+          },
+          {
+            "name": "Прочее нестандартное оборудование",
+            "slug": "vv23"
+          }
+        ]
+      }
+    ]
+  },
+  "category":{
+    "filter_info": {
+      "filter_title": "Фильтр",
+      "filter_btn_name": "Применить"
+    },
+    "name": "Ленточные текстильные стропы",
+    "content": "<p>fsdfsffs</p>",
+    "items": [
+        {
+            "img_src": "https://unsplash.it/200/200?random",
+            "img_alt": "Pic",
+            "name": "Тест Тест Тест Тест ТестТест Тест Тест Тест",
+            "slug": "test"
+        },
+        {
+            "img_src": "https://unsplash.it/200/200?random",
+            "img_alt": "Pic",
+            "name": "Тест2",
+            "slug": "test2"
+        },
+        {
+            "img_src": "https://unsplash.it/200/200?random",
+            "img_alt": "Pic",
+            "name": "Тест3",
+            "slug": "test3"
+        },
+        {
+            "img_src": "https://unsplash.it/200/200?random",
+            "img_alt": "Pic",
+            "name": "Тест4",
+            "slug": "test4"
+        }
+    ],
+    "filters": [
+        {
+            "name": "color",
+            "title": "Цвет",
+            "values": [
+                "Голубой",
+                "Желтый",
+                "Зеленый",
+                "Красный",
+                "Оранжевый",
+                "Серый"
+            ]
+        },
+        {
+            "name": "gruzopodemnost",
+            "title": "Грузоподъемность",
+            "values": [
+                "1",
+                "2",
+                "3",
+                "5",
+                "6",
+                "7",
+                "8",
+                "12",
+                "16"
+            ]
+        },
+        {
+            "name": "width",
+            "title": "Ширина",
+            "values": [
+                "1",
+                "2",
+                "14",
+                "16",
+                "67",
+                "74"
+            ]
+        },
+        {
+            "name": "durability",
+            "title": "Запас прочности",
+            "values": [
+                "5:1",
+                "5:2",
+                "5:3"
+            ]
+        }
+    ],
+    "generated_links": [
+        {
+            "meta_title": "Тест1",
+            "meta_description": "Тест1",
+            "meta_keywords": "Тест1",
+            "og_title": "Тест1",
+            "og_description": "Тест1",
+            "og_image": "http://localhost:8003/media/productpreset/Black_yj0B84g.jpg",
+            "name": "Зажим винтовой канатный оцинкованный DIN 1142",
+            "slug": "test1",
+            "get_params": "gruzopodemnost=1,2,3",
+            "text": "<p>Уникальный текстУникальный текстУникальный текстУникальный текстУникальный текстУникальный текстУникальный текстУникальный текстУникальный текст</p>"
+        },
+        {
+            "meta_title": "Тест2",
+            "meta_description": "Тест2",
+            "meta_keywords": "Тест2",
+            "og_title": "Тест2",
+            "og_description": "Тест2",
+            "og_image": "http://localhost:8003/media/productpreset/Black.jpg",
+            "name": "Зажим винтовой канатный оцинкованный DIN 1142",
+            "slug": "test2",
+            "get_params": "color=Красный",
+            "text": "<p>Уникальный текстУникальный текстУникальный текстУникальный текстУникальный текст</p>"
+        },
+        {
+            "meta_title": "Тест2",
+            "meta_description": "Тест2",
+            "meta_keywords": "Тест2",
+            "og_title": "Тест2",
+            "og_description": "Тест2",
+            "og_image": "http://localhost:8003/media/productpreset/Black.jpg",
+            "name": "Зажим винтовой канатный оцинкованный DIN 1142",
+            "slug": "test3",
+            "get_params": "color=Красный",
+            "text": "<p>Уникальный текстУникальный текстУникальный текстУникальный текстУникальный текст</p>"
+        }
+    ]
+  },
+  "products":{
+    "total_number_items": 6,
+    "quantity_page": 12,
+    "current_page": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "uuid": "iesvblths7mmcsqa5uaedykgg9kpof8h2",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 1 Товар 1 Товар 1 Товар 1 Товар 1",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "5jvsqh5a35qhj8nmvvjdckw43owuelsx",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 2",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "ueg0fcuhkcs8rianh0cvucbhyzb2onjv",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 1 Товар 1 Товар 1 Товар 1 Товар 1 Товар 1 Товар 1 Товар 1 Товар 1 Товар 1",
+            "price": "бесплатно"
+        },
+        {
+            "uuid": "kwbrs18buhs8nknopqca0curdyplie0o",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 6",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "skmuscc208m9iki3bic8deoitb4fomj2",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 8",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "skmuscc208m9iki3bic8deoitb4fomj3",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 9",
+            "price": "от 500р"
+        }
+    ]
+  },
+  "product_detail":{
+    "page_settings": {
+      "btn_buy_name": "Добавить в запрос",
+      "title_tech": "Характеристики",
+      "title_desk": "Описание",
+      "title_certificates": "Сертификаты",
+      "title_similar": "Похожие товары",
+      "title_individual_block": "Если Вам не подошел ни один из типовых вариантов",
+      "title_orders": "Индивидуальные заказы",
+      "description_orders": "Индивидуальные заказыИндивидуальные заказыИндивидуальные заказыИндивидуальные заказыИндивидуальные заказы",
+      "title_consultation": "Консультация специалиста",
+      "description_consultation": "Консультация специалистаКонсультация специалистаКонсультация специалиста"
+    },
+    "file_catalog": {
+        "title": "Скачать каталог",
+        "src": "http://localhost:8003/media/catalogfile/sample.pdf"
+    },
+    "name": "Наименование товара",
+    "uuid": "kwbrs18buhs8nknopqca0curdyplie010",
+    "short_description": "Строп текстильный составной СТСп используют для перемещения грузов большой массы, которые нестойки к механическим повреждениям. Также СТСп применяется при необходимости большой площади обхвата груза.",
+    "img_src_detail": "https://unsplash.it/387/387?random",
+    "img_alt_detail": "pic",
+    "price": "Цена предоставляется по запросу",
+    "full_description": "<p>Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4Товар 4</p>",
+    "img_src_description": "https://unsplash.it/284/226?random",
+    "img_alt_description": "pic",
+    "important_properties": [
+        {
+            "property": "Максимальная грузоподъёмность: 64 тонн"
+        },
+        {
+            "property": "свойство 2"
+        },
+        {
+            "property": "свойство 3"
+        }
+    ],
+    "similar_products": [
+        {
+            "uuid": "iesvblths7mmcsqa5uaedykgg9kpof8h",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 1",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "5jvsqh5a35qhj8nmvvjdckw43owuelsx",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 2",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "n31bglamn0pvxycyooodlqhboqp3l3gf",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "Товар 3",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "kwbrs18buhs8nknopqca0curdyplie0o",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 6",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "kwbrs18buhs8nknopqca0curdyplie01",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 6",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "kwbrs18buhs8nknopqca0curdyplie02",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 6",
+            "price": "от 500р"
+        },
+        {
+            "uuid": "kwbrs18buhs8nknopqca0curdyplie03",
+            "img_src_catalog": "https://unsplash.it/200/200?random",
+            "img_alt_catalog": "pic",
+            "name": "товар 6",
+            "price": "от 600р"
+        }
+    ],
+    "documents": [
+        {
+            "title": "simple",
+            "img_src": "https://unsplash.it/387/385?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "H01536 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "img_src": "https://unsplash.it/387/385?random",
+            "img_alt": "Pic"
+        },
+        {
+            "title": "H01534 – Стропы грузовые общего назначения на текстильной основе и комплектующие к ним по РД 24 СЗК-",
+            "img_src": "https://unsplash.it/387/389?random",
+            "img_alt": "Pic"
+        }
+    ],
+    "characteristics": [
+        {
+            "title": "Ширина",
+            "name": "width",
+            "values": [
+                {
+                    "value": "14"
+                },
+                {
+                    "value": "16"
+                },
+                {
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "title": "Грузоподъемность",
+            "name": "gruzopodemnost",
+            "values": [
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "title": "Грузоподъемность",
+            "name": "gruzopodemnost",
+            "values": [
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "title": "Грузоподъемность",
+            "name": "gruzopodemnost",
+            "values": [
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "title": "Грузоподъемность",
+            "name": "gruzopodemnost",
+            "values": [
+                {
+                    "value": "2"
+                },
+                {
+                    "value": "3"
+                },
+                {
+                    "value": "5"
+                },
+                {
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "title": "fhgfhgf",
+            "name": "gruzopodemnost",
+            "values": [
+                {
+                    "value": "dfgf"
+                }
+            ]
+        }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
