@@ -3,7 +3,7 @@ import YmapPlugin from 'vue-yandex-maps'
 
 
 const settings = {
-  apiKey: '19be89f7-5a76-46d1-bc82-9d61cd680af8',
+  apiKey: '35a88799-ee22-4d9e-bbc9-ca7375cd9632',
   coordorder: 'latlong',
   version: '2.1',
 }
